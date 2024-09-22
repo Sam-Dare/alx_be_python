@@ -20,7 +20,7 @@ match priority:
 if time_bound == "yes":
     reminder += " that requires immediate attention today!"
 else:
-    reminder += " that can be done later."
+    reminder += ". Consider completing it when you have free time."
 
 # Provide a customized reminder
 print(reminder)
